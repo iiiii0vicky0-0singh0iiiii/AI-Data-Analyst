@@ -1,7 +1,7 @@
 from openai import OpenAI
 from schema import schema
 
-client = OpenAI(api_key="YOUR_API_KEY")
+client = OpenAI(api_key="GE_key")
 
 def generate_sql(question):
     prompt = f"""
